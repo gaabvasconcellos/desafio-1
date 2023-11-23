@@ -1,0 +1,132 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 44px 0 144px 76px;
+}
+
+.link-header{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    cursor: pointer;
+    margin-right: 32px;
+    color: #17233D;
+    text-align: center;
+    letter-spacing: 0.875px;
+
+}
+
+.botao-cima{
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 24px;
+    font-size: 16px;
+    background: #4CB538;
+    color: #FFFFFF;
+    size: 16px;
+    border: none;
+
+}
+
+
+
+.img-logo{
+    width: 500px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+div{
+    display: inline-block;
+ margin-left: 85px;
+ width: 493px;
+    }
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+
+}
+p{
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+width: 515px;
+margin-top: 32px;
+margin-bottom: 65px;
+color: #4B505A;
+
+}
+
+.botao-baixo{
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    width: 112px;
+    height: 27px;
+    border: none;
+    color: #6FBF44;
+    line-height: 27px;
+    background: transparent;
+
+}
+
+@media screen and (max-width:900px){
+    
+      .link-header{
+          display:none;
+}
+
+
+    .botao-cima{
+        display: inline;
+        margin-left: 667px;
+        margin-top: 0;
+
+    }
+h1{
+  width: 250px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+  
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    Width: 304px;
+    Height:165px;
+
+}
+.botao-baixo{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    Width: 112px;
+    Height:27px;
+}
+img{
+   margin:30px;
+margin-top: 70px;
+}
+
+div{
+    display: revert;
+}
+
+}
